@@ -1,0 +1,13 @@
+# ==============================================================================
+# Gitignore Profile: Independent Puppet Configuration Modules
+# ==============================================================================
+
+# Vendor modules retrieved via Puppetfile configuration tracking
+/modules/
+/vendor/
+
+# Ruby and RSpec environment validation targets
+.resource_types/
+.ruby-version
+Gemfile.lock
+.bundle/
