@@ -1,0 +1,11 @@
+# System execution parameter limits generated via Puppet templates.
+# Optimized to handle large concurrent database footprints and high memory scaling.
+
+kernel.sem = 250 32000 100 128
+kernel.msgmnb = 65536
+kernel.msgmax = 65536
+kernel.shmall = 4294967296
+vm.dirty_background_ratio = 5
+vm.dirty_ratio = 10
+vm.swappiness = 10
+
