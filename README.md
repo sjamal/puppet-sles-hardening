@@ -13,3 +13,13 @@ This module targets infrastructure metrics necessary for high-capacity database 
 
 ## Module Structure
 - **manifests/init.pp:** Main execution profile for isolating and scaling security settings across SLES platforms.
+
+## Related Enterprise Projects
+
+Part of the integrated enterprise infrastructure automation framework:
+
+- **[puppet-enterprise-profiles](https://github.com/sjamal/puppet-enterprise-profiles)** — Enterprise Puppet modules for observability and general configuration
+- **[hybrid-governance-automation](https://github.com/sjamal/hybrid-governance-automation)** — Compliance orchestration and change gating
+- **[enterprise-hybrid-pipelines](https://github.com/sjamal/enterprise-hybrid-pipelines)** — Post-provisioning automation
+- **[ansible](https://github.com/sjamal/ansible)** — Infrastructure provisioning and playbooks
+- **[enterprise-network-mesh](https://github.com/sjamal/enterprise-network-mesh)** — Network configuration and validation
